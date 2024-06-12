@@ -45,7 +45,7 @@ app.delete('/delete/:id',async(req,res)=>{
     }
 })
 
-mongoose.connect('mongodb+srv://gloop216:t6OwXxDJu1KR9YA3@cluster0.nryicsp.mongodb.net/Dashboard?retryWrites=true&w=majority&appName=Cluster0').then(() => {
+mongoose.connect('Mongo DB URL here !').then(() => {
     console.log('connecting ok! with db')
 })
 const port = 8000;
